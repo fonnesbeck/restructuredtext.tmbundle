@@ -4,8 +4,9 @@
 <dict>
 	<key>content</key>
 	<string>.. image:: ${1:path}
-
-	$0</string>
+	:scale: ${2:100} %
+	:alt: ${3:alternate text}
+	:align: ${4:center}</string>
 	<key>name</key>
 	<string>image</string>
 	<key>scope</key>
