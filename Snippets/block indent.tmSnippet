@@ -3,15 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>
-\`${1:Title} &lt;${2:http://link}&gt;\`_</string>
+	<string>:: 
+
+	$0</string>
 	<key>name</key>
-	<string>link</string>
+	<string>block indent</string>
 	<key>scope</key>
 	<string>text.restructuredtext</string>
 	<key>tabTrigger</key>
-	<string>link</string>
+	<string>::</string>
 	<key>uuid</key>
-	<string>53A0FA7F-261F-4B59-8FC2-5E7E8BA44E42</string>
+	<string>661E49E2-3FAA-4240-94B9-D58F2D9FFCD0</string>
 </dict>
 </plist>
