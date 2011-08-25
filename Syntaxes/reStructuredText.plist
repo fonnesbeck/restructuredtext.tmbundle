@@ -181,7 +181,7 @@
 					<key>comment</key>
 					<string>emphasis</string>
 					<key>match</key>
-					<string>(\*)\w[^*]+\w(\*)</string>
+					<string>(\*)[^*]+(\*)</string>
 					<key>name</key>
 					<string>markup.italic.restructuredtext</string>
 				</dict>
@@ -519,12 +519,17 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.intepreted.restructuredtext</string>
+							<string>punctuation.definition.constant.restructuredtext</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.intepreted.restructuredtext</string>
+							<string>punctuation.definition.constant.restructuredtext</string>
+						</dict>
+						<key>3</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.constant.restructuredtext</string>
 						</dict>
 					</dict>
 					<key>comment</key>
