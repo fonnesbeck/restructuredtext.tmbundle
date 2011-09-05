@@ -26,7 +26,7 @@ $right =~ s/(?=[\$`\\])/\\/g;
 
 # Now, figure out what to paste back
 
-if ($left =~ /^(\s*(\*|\+|\-|\d+\.)\s*)\S+/) {
+if ($left =~ /^(\s*(\*|\+|\-|\d+\.|\(?+\d+\))\s*)\S+/) {
 	# We appear to have a list item with content, so create a new sibling
 	
 	$marker = $1;	# What was used as a list item marker?
